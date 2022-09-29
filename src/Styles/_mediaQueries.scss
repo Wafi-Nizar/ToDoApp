@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: var(--Primary80);
+    --on-primary: var(--Primary20);
+    --primary-container: var(--Primary30);
+    --on-primary-container: var(--Primary90);
+    --background: var(--Neutral10);
+    --on-background: var(--Neutral99);
+    --outline: var(--Neutral40);
+  }
+  .btn--primary:hover {
+    background-color: var(--Primary70);
+  }
+  .btn--outlined:hover {
+    background-color: var(--Neutral20);
+  }
+}

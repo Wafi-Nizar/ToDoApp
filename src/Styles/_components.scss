@@ -1,0 +1,20 @@
+// Buttons
+button {
+  cursor: pointer;
+}
+.btn {
+  border-radius: 28px;
+  border: none;
+  font-size: var(--fs-content);
+  font-weight: 600;
+  padding: 1rem 2rem;
+}
+.btn--primary {
+  background-color: var(--primary);
+  color: var(--on-primary);
+}
+.btn--outlined {
+  background-color: transparent;
+  border: 1px solid var(--outline);
+  color: var(--on-background);
+}
